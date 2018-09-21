@@ -1,0 +1,141 @@
+.bg-red {
+  background-color: #ff0000 !important;
+}
+
+.bg-green {
+  background-color:  rgba(24,255,0,0.5);
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .summary-card {
+  width: 340px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0px 2px 2px 0px rgba(158,150,158,1);
+  background-color: lightgoldenrodyellow;
+}
+
+.wrapper .summary-card .card-image{
+  width: 100%;
+}
+
+.p-image{
+  width: 30%;
+  float: left;
+  padding-right: 20px
+}
+.p-image:hover{
+  cursor: pointer;
+}
+
+
+.main-container{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.text {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.h1{
+  font-family: verdana;
+  text-align: center;
+  z-index: 1;
+  background-color: #ffa500;
+  top: 0;
+  padding-top: 50px;
+  padding: 6px 8px 6px 16px;
+  border-radius: 6px;
+}
+
+.h2{
+  font-family: verdana;
+  text-align: center;
+  padding: 0px
+}
+
+.sidenav {
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  border-radius: 6px;
+  background-color: #feee00;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image-wrapper{
+  position: relative;
+
+}
+.close-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 50%;
+  font-weight: bold;
+
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.section-left{
+  margin-right: 40px;
+}
+
+.side-nav-wrapper{
+  width: 230px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-container{
+    width: 800px;
+  }
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .overlay-img{
+  box-shadow: 0px 0px 20px #000000;
+  border: 1px solid;
+
+}
+
+
+.hidden{
+  display: none;
+}
