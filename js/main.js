@@ -1,3 +1,4 @@
+// this is a wonderful comment from Francesco
 function toggleRed(event) {
   event.preventDefault();
   var h1 = document.querySelector(".h1");
